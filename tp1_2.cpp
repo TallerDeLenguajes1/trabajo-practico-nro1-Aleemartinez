@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -13,40 +12,57 @@ int main(void) {
 setvbuf(stdout, NULL, _IONBF,0);
 	int i, j;
 	
-	/*prueba del punto 1 
+	/*
+	prueba del punto 1 
 	printf("ingrese numero para calcular su cuadrado\n");
 	scanf("%d",&i);
-	printf("%d numero al cuadrado \n",cuadrado(a) );*/
-	
-	/*Prueba del punto 2
-	cuadrado2(i); */
+	printf("el cuadrado de: %d   es: %d\n",i,cuadrado(i) );
+	*/
 
-	/* Pueba del punto 3 
-	dirval(i);*/
+	/*
+	Prueba del punto 2
+	printf("ingrese numero para calcular su cuadrado\n");
+	scanf("%d",&i);
+	cuadrado2(i);
+	*/
 
-	/*Prueba del punto 4
+	/* 
+	Pueba del punto 3
+	printf("ingrese numero para ver direccion de memoria y contenido\n"); 
+	scanf("%d",&i);
+	dirval(i);
+	*/
+
+
+	/*
+	Prueba del punto 4
 	printf("Ingrese valor de A=\n");
 	scanf("%d",&i);
 	printf("ingrese valor de B=\n");
 	scanf("%d",&j);
 	printf("Valores asignados \n A=%d B=%d\n",i,j );
 	invertir(&i,&j);
-	printf("Valores invertidos \na=%d b=%d\n",i,j );*/
+	printf("Valores invertidos \n A=%d B=%d\n",i,j );
+	*/
 
-	/*Prueba del punto 5
+	/*
+	Prueba del punto 5
 	printf("ingrese valor de A=\n");
 	scanf("%d",&i);
 	printf("Ingrese el valor de B=\n");
 	scanf("%d",&j);
 	ordenar(&i,&j);
-	printf("Valores ordenados\n A=%d B=%d",i,j);*/
+	printf("Valores ordenados\n Menor=%d    Mayor=%d",i,j);
+	*/
 
-	/* prueba del punto 6
+	/*
+	prueba del punto 6
 	printf("Ingrese valor de A=\n" );
 	scanf("%d",&i);
 	printf("Ingrese valor de B=\n");
 	scanf("%d",&j);
-	imprimir(i,j);*/
+	imprimir(i,j);
+	*/
 
 	return 0;
 }
